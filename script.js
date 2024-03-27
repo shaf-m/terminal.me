@@ -32,7 +32,7 @@ function handleCommand() {
   } 
   else if (input === 'projects') 
   {
-    typeOutput('<span class="prompt">$</span> Here are my projects:<br>&#8226 NBA Predictor <a href=https://github.com/shaf-m/nbapredictor" target="_blank">\n\nView on GitHub</a><br>&#8226 Student Sys <a href="https://github.com/shaf-m/StudentManagementSystem" target="_blank">\n\nView on GitHub</a><br>&#8226 Taskify <a href="https://github.com/shaf-m/Taskify" target="_blank">\n\nView on GitHub</a><br>&#8226 YouTube Clone <a href="https://github.com/shaf-m/YouTubeClone" target="_blank">\n\nView on GitHub</a><br>&#8226 Terminal.me <a href="https://github.com/shaf-m/terminal.me" target="_blank">\n\nView on GitHub</a><br>&#8226 WorldWeather <a href="https://github.com/shaf-m/WorldWeather" target="_blank">\nView on GitHub</a>', output);
+    typeOutput('<span class="prompt">$</span> Here are my projects:<br>&#8226 NBA Predictor <a href="https://github.com/shaf-m/nbapredictor" target="_blank">\n\nView on GitHub</a><br>&#8226 Student Sys <a href="https://github.com/shaf-m/StudentManagementSystem" target="_blank">\n\nView on GitHub</a><br>&#8226 Taskify <a href="https://github.com/shaf-m/Taskify" target="_blank">\n\nView on GitHub</a><br>&#8226 YouTube Clone <a href="https://github.com/shaf-m/YouTubeClone" target="_blank">\n\nView on GitHub</a><br>&#8226 Terminal.me <a href="https://github.com/shaf-m/terminal.me" target="_blank">\n\nView on GitHub</a><br>&#8226 WorldWeather <a href="https://github.com/shaf-m/WorldWeather" target="_blank">\nView on GitHub</a>', output);
   } 
   else if (input === 'about') 
   {
