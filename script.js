@@ -28,15 +28,15 @@ function handleCommand() {
   } 
   else if (input === 'help') 
   {
-    typeOutput('<span class="prompt">$</span> Available commands:<br>\'about\' - About me<br>\'projects\' - View my projects<br>\'resume\' - See my resume<br>\'contact\' - Contact me', output);
+    typeOutput('<span class="prompt">$</span> Available commands:<br>&#8226 \'about\' - About me<br>&#8226 \'projects\' - View my projects<br>&#8226 \'resume\' - See my resume<br>&#8226 \'contact\' - Contact me', output);
   } 
   else if (input === 'projects') 
   {
-    typeOutput('<span class="prompt">$</span> Here are my projects:<br>1. Project 1 - Brief summary. <a href="https://github.com/user/project1" target="_blank">\n\nView on GitHub</a><br>2. Project 2 - Brief summary. <a href="https://github.com/user/project2" target="_blank">\nView on GitHub</a>', output);
+    typeOutput('<span class="prompt">$</span> Here are my projects:<br>&#8226 NBA Predictor <a href=https://github.com/shaf-m/nbapredictor" target="_blank">\n\nView on GitHub</a><br>&#8226 Student Sys <a href="https://github.com/shaf-m/StudentManagementSystem" target="_blank">\n\nView on GitHub</a><br>&#8226 Taskify <a href="https://github.com/shaf-m/Taskify" target="_blank">\n\nView on GitHub</a><br>&#8226 YouTube Clone <a href="https://github.com/shaf-m/YouTubeClone" target="_blank">\n\nView on GitHub</a><br>&#8226 Terminal.me <a href="https://github.com/shaf-m/terminal.me" target="_blank">\n\nView on GitHub</a><br>&#8226 WorldWeather <a href="https://github.com/shaf-m/WorldWeather" target="_blank">\nView on GitHub</a>', output);
   } 
   else if (input === 'about') 
   {
-    typeOutput('<span class="prompt">$</span> About Me:<br>I am a passionate developer...', output);
+    typeOutput('<span class="prompt">$</span> About Me:<br>Hello World! I’m Shaf, a second-year CS student at York University. I enjoy diving deep into all aspects of computer science, currently finding an interest in backend engineering, data science, machine learning, and cloud computing. I am currently interning at the Ontario Government as a Software Engineer.', output);
   }
   else if (input === 'resume') 
   {
@@ -45,7 +45,7 @@ function handleCommand() {
   }
   else if (input === 'contact') 
   {
-    typeOutput('<span class="prompt">$</span> Contact Me:<br>Email: example@example.com<br>Phone: 123-456-7890', output);
+    typeOutput('<span class="prompt">$</span> Contact Me:<br>Email: <a href= "mailto: shafm@my.yorku.ca" target="_blank">\nshafm@my.yorku.ca (click)</a><br>LinkedIn: <a href="https://www.linkedin.com/in/shaf-m/" target="_blank">\n\nshafm (click)</a><br>GitHub: <a href="https://github.com/shaf-m" target="_blank">\n\nshafm (click)</a>', output);
   } 
   else 
   {
