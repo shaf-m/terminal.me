@@ -16,7 +16,7 @@ document.getElementById('command').addEventListener('keypress', function(event) 
 
 // Function to handle user commands
 function handleCommand() {
-  var input = document.getElementById('command').value.trim();
+  var input = document.getElementById('command').value.trim().toLowerCase(); // Convert input to lowercase and strip leading/trailing spaces
   var output = document.getElementById('output');
 
   // Append user input to the output
