@@ -40,7 +40,7 @@ function handleCommand() {
   }
   else if (input === 'resume') 
   {
-  window.open('username.github.io/folder/document.pdf', '_blank'); // Replace 'username.github.io/folder/document.pdf' with the actual URL of your resume PDF
+  window.open('Resume-Shaf.pdf', '_blank');
   typeOutput('<span class="prompt">$</span> Launching resume...', output);
   }
   else if (input === 'contact') 
