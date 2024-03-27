@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terminal.me</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <div id="menu-bar">
+      <div id="mac-icons">
+        <div class="mac-icon red"></div>
+        <div class="mac-icon orange"></div>
+        <div class="mac-icon green"></div>
+      </div>
+    </div>
+    
+    <div id="terminal">
+      <div id="output">
+        <p id="last-login"></p> <!-- Add element for "Last login" message -->
+        <p style="color: #fff;">Welcome to My Portfolio Terminal</p>
+        <p>Type 'help' for a list of available commands.</p>
+      </div>
+      <div id="input-line">
+        <span id="prompt">user$ </span>
+        <div id="typed-text" class="blink_me"></div>
+        <input type="text" id="command" autofocus>
+      </div>
+    </div>
+    
+    
+    
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

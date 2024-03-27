@@ -1,0 +1,120 @@
+body {
+  font-family: monospace;
+  background-color: #000;
+  color: #0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  border-radius: 15px;
+  background-color: #333;
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.9); */
+  overflow: hidden;
+  position: relative; /* Added for proper positioning of #mac-icons */
+}
+
+#menu-bar {
+  background-color: #222; /* Terminal background color */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+#mac-icons {
+  display: flex;
+}
+
+.mac-icon {
+  width: 10px; /* Adjust icon width as needed */
+  height: 10px; /* Adjust icon height as needed */
+  margin-right: 5px; /* Add margin between icons */
+  background-color: #ff5f56; /* Placeholder background color */
+  border-radius: 50%; /* Rounded shape */
+}
+
+
+.red {
+  margin-left: -5px; /* Add margin between icons */
+  background-color: #ff5f57;
+}
+
+.orange {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #28ca41;
+}
+
+#terminal {
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  max-height: 200px; /* Adjust max height as needed */
+  max-width: 400px; /* Adjust max height as needed */
+  overflow-x: auto; /* Add scrollbar when content exceeds height */
+  overflow-y: auto; /* Add scrollbar when content exceeds height */
+}
+
+#terminal a {
+  color: #fff; /* Set hyperlink color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hide the default scrollbar */
+#terminal::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+#terminal::-webkit-scrollbar-track {
+  background-color: #222; /* Background color of the scrollbar track */
+}
+
+#terminal::-webkit-scrollbar-thumb {
+  background-color: #444; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners of the scrollbar thumb */
+}
+
+#terminal::-webkit-scrollbar-thumb:hover {
+  background-color: #666; /* Color of the scrollbar thumb on hover */
+}
+
+
+
+#output {
+  margin-bottom: 10px;
+}
+
+#input-line {
+  display: flex;
+  position: relative;
+}
+
+#prompt {
+  color: #0f0;
+  margin-right: 5px;
+}
+
+#typed-text {
+  display: inline-block;
+  color: #0f0;
+}
+
+#command {
+  background-color: transparent;
+  border: none;
+  color: #0f0;
+}
+
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
