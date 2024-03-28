@@ -24,7 +24,7 @@ Once you access terminal.me, you can navigate through the interface using basic 
 
 - Type 'help' to see the list of available commands.
 - Use 'about' to learn more about the user.
-- Type 'explore' to browse through the user's projects.
+- Type 'projects' to browse through the user's projects.
 - Use 'resume' to view the user's resume.
 - Type 'contact' to contact the user.
 - Stay tuned for updates and new features!
