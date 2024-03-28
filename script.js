@@ -1,27 +1,3 @@
-function isPhone() {
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-// Function to display the popup
-function showPopup() {
-  // Create popup element
-  var popup = document.createElement('div');
-  popup.innerHTML = `
-    <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
-      <h2>Attention!</h2>
-      <p>This website is optimized for desktop. For the best experience, please visit it using a desktop or tablet device.</p>
-    </div>
-  `;
-  document.body.appendChild(popup);
-}
-
-// Check if the device is a phone and show the popup
-if (isPhone()) {
-  showPopup();
-}
-
-
-
 // Initialize last login time
 var lastLoginTime = new Date().toString();
 var lastIndex = lastLoginTime.lastIndexOf('('); // Find the index of the timezone information
