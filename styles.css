@@ -439,5 +439,9 @@ h1 {
   #menu-bar h1 {
     font-size: 9px;
   }
+
+  #command {
+    margin-top: -2px;
+  }
   
 }
