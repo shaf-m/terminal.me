@@ -239,9 +239,9 @@ body {
   background-color: #000;
   color: #0f0;
   display: flex;
-  justify-content: center; /* Horizontally center */
-  align-items: center; /* Vertically center */
-  height: 100vh; /* Take up full viewport height */
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
   margin: 0;
   font-size: 16px;
 }
@@ -271,8 +271,8 @@ button:focus {
 
 #mac-icons {
   display: flex;
-  flex: 1; /* Take up remaining space */
-  justify-content: flex-start; /* Align icons to the left */
+  flex: 1;
+  justify-content: flex-start;
 }
 
 .mac-icon {
@@ -299,14 +299,14 @@ h1 {
   color: #464646;
   font-size: 15px;
   margin: 0;
-  flex: 100; /* Take up remaining space */
-  text-align: center; /* Center the text */
+  flex: 100;
+  text-align: center;
 }
 
 #terminal {
   padding: 20px;
   height: 300px;
-  width: 600px;
+  width: calc(100% - 20px);
   max-height: 300px;
   max-width: 600px;
   overflow-x: auto;
