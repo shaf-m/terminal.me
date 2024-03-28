@@ -1,6 +1,6 @@
 # terminal.me
 
-![terminal.me Logo]([https://example.com/terminal-me-logo.png](https://github.com/shaf-m/terminal.me/blob/main/terminal.me%20demo%20thumbnail.png))
+![terminal.me Logo](https://github.com/shaf-m/terminal.me/blob/main/terminal.me%20demo%20thumbnail.png)
 
 👋🏽 Welcome to terminal.me! This project offers a unique way to present your portfolio, departing from the conventional portfolio websites. terminal.me provides an interactive terminal interface allowing visitors to navigate through your portfolio using simple commands. Just type 'help' to get started!
 
