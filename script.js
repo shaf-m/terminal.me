@@ -45,7 +45,7 @@ function handleCommand() {
   }
   else if (input === 'contact') 
   {
-    typeOutput('<span class="prompt">$</span> Contact Me:<br>Email: <a href= "mailto: shafm@my.yorku.ca" target="_blank">\nshafm@my.yorku.ca (click)</a><br>LinkedIn: <a href="https://www.linkedin.com/in/shaf-m/" target="_blank">\n\nshafm (click)</a><br>GitHub: <a href="https://github.com/shaf-m" target="_blank">\n\nshafm (click)</a>', output);
+    typeOutput('<span class="prompt">$</span> Contact Me:<br>Email: <a href= "mailto: shafm@my.yorku.ca" target="_blank">\nshafm@my.yorku.ca (click)</a><br>LinkedIn: <a href="https://www.linkedin.com/in/shaf-m/" target="_blank">\n\nshaf-m (click)</a><br>GitHub: <a href="https://github.com/shaf-m" target="_blank">\n\nshaf-m (click)</a>', output);
   } 
   else 
   {
