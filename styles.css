@@ -368,6 +368,7 @@ h1 {
   color: #0f0;
   font-family: monospace;
   font-size: 16px;
+  margin-top: -1px;
 }
 
 .blink_me {
@@ -397,7 +398,7 @@ h1 {
   }
 
   #menu-bar h1 {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   #terminal {
@@ -406,7 +407,7 @@ h1 {
   }
 
   #prompt {
-    font-size: 12px; /* Reduce font size for mobile */
+    font-size: 12px;
   }
 
   #typed-text {
@@ -427,7 +428,16 @@ h1 {
   #output {
     margin-bottom: 10px;
     word-wrap: break-word;
-    padding-right: 8px; /* Add padding to the text */
+    padding-right: 8px; 
+  }
+  
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media only screen and (max-width: 400px) {
+
+  #menu-bar h1 {
+    font-size: 8px;
   }
   
 }
