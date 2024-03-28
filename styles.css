@@ -26,7 +26,6 @@
   animation-iteration-count: infinite;
 }
 
-
 .background span:nth-child(0) {
   color: #000000;
   top: 7%;
@@ -235,16 +234,15 @@
   box-shadow: 100vmin 0 12.528921349803657vmin currentColor;
 }
 
-
 body {
   font-family: monospace;
   background-color: #000;
   color: #0f0;
-  padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Take up full viewport height */
+  margin: 0;
   font-size: 16px;
 }
 
@@ -260,47 +258,49 @@ button:focus {
   background-color: #333;
   overflow: hidden;
   position: relative;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 #menu-bar {
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #222;
   padding: 10px 20px;
 }
 
-#menu-bar h1 {
-  color: #464646;
-  font-size: 15px;
-  margin: 0;
-  margin-right: 180px;
-}
-
 #mac-icons {
   display: flex;
-  margin-right: auto;
+  flex: 1; /* Take up remaining space */
+  justify-content: flex-start; /* Align icons to the left */
 }
 
 .mac-icon {
-  width: 10px; 
-  height: 10px; 
-  margin-right: 5px; 
-  background-color: #ff5f56; 
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  background-color: #ff5f56;
   border-radius: 50%;
 }
 
-.red {
-  margin-left: -5px;
+.mac-icon.red {
   background-color: #ff5f57;
 }
 
-.orange {
+.mac-icon.orange {
   background-color: #ffbd2e;
 }
 
-.green {
+.mac-icon.green {
   background-color: #28ca41;
+}
+
+h1 {
+  color: #464646;
+  font-size: 15px;
+  margin: 0;
+  flex: 100; /* Take up remaining space */
+  text-align: center; /* Center the text */
 }
 
 #terminal {
@@ -337,6 +337,8 @@ button:focus {
 
 #output {
   margin-bottom: 10px;
+  padding-right: 0px;
+  word-wrap: break-word;
 }
 
 #input-line {
@@ -378,3 +380,54 @@ button:focus {
   }
 }
 
+/* Media Queries for Mobile Responsiveness */
+@media only screen and (max-width: 600px) {
+  
+  body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  #container {
+    width: 70%;
+  }
+
+  #menu-bar h1 {
+    font-size: 12px;
+  }
+
+  #terminal {
+    width: calc(100% - 20px);
+    height: 200px;
+  }
+
+  #prompt {
+    font-size: 12px; /* Reduce font size for mobile */
+  }
+
+  #typed-text {
+    display: inline-block;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 12px;
+  }
+  
+  #command {
+    background-color: transparent;
+    border: none;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 12px;
+  }
+
+  #output {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    padding-right: 8px; /* Add padding to the text */
+  }
+  
+}
